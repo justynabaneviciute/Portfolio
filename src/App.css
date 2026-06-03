@@ -1254,3 +1254,54 @@ padding: 120px 90px 15px;
   margin: 0 auto;
   line-height: 1.5;
 }
+
+/* GALUTINIS RESPONSIVE FIX */
+
+.work-detail-page {
+  overflow-x: hidden;
+}
+
+.work-detail-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.work-detail-content img,
+.work-detail-content video {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  .work-detail-page {
+    padding: 35px 18px 80px;
+  }
+
+  .work-detail-content {
+    margin-top: 25px;
+    padding: 0;
+  }
+
+  .work-detail-content img,
+  .work-detail-content video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+  }
+
+  .work-description h1 {
+    font-size: 24px;
+  }
+
+  .work-description p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
