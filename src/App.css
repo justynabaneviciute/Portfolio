@@ -1305,3 +1305,47 @@ padding: 120px 90px 15px;
     padding: 0 10px;
   }
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    width: 100%;
+    padding: 16px 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    gap: 10px;
+    flex-wrap: nowrap;
+  }
+
+  .nav-links a {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+
+  .works-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    transform: none !important;
+  }
+
+  .work1,
+  .work2,
+  .work3,
+  .work4 {
+    width: 100% !important;
+    height: 220px !important;
+    transform: none !important;
+  }
+}
