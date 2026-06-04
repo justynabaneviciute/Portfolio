@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import cloud from "./assets/render.gif";
+import cloud from "./assets/rend.gif";
 
 function WorkDetailPage({ setPage }) {
 

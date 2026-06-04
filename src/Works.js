@@ -1,6 +1,6 @@
 import React from "react";
 
-import render from "./assets/render.gif";
+import render from "./assets/rend.gif";
 import kalnas from "./assets/kalnas.gif";
 import rocket from "./assets/Raketa.gif";
 import burger from "./assets/burg.gif";
