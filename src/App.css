@@ -453,6 +453,7 @@ body {
   object-fit: cover;
   filter: blur(3px);
   transition: filter 0.4s ease, transform 0.4s ease;
+    border-radius: 18px;
 }
 .medium-yellow img {
   object-fit: contain;
