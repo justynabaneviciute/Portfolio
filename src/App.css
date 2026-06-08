@@ -280,10 +280,11 @@ body {
 
 .about-text p {
   font-size: 25px;
-  line-height: 1.35;
+  line-height: 1.12;
   margin: 0 0 46px;
   color: #111;
 }
+
 
 .about-right {
   display: flex;
@@ -305,12 +306,14 @@ body {
   width: 960px;
   height: 960px;
   object-fit: contain;
+  position: relative;
+  top: -5px;
 }
 
 .role {
-  margin-top: -240px;
-  margin-left: 80px;
-  font-size: 26px;
+  margin-top: -235px;
+  margin-left: 90px;
+  font-size: 23px;
   font-weight: 500;
   color: #111;
 }
@@ -320,7 +323,7 @@ body {
   gap: 20px;
   margin-top: 8px;
   align-items: center;
-  transform: translate(40px, 5px);
+  transform: translate(40px, 0px);
 }
 
 .tools-icons img {
@@ -805,15 +808,18 @@ padding: 120px 90px 15px;
   .about-text h2 {
     font-size: 52px;
   }
+.about-text .intro {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.35;
+  margin-bottom: 32px;
+}
 
-  .about-text .intro {
-    font-size: 28px;
-  }
-
-  .about-text p {
-    font-size: 24px;
-  }
-
+.about-text p {
+  font-size: 22px;
+  line-height: 1.45;
+  margin-bottom: 32px;
+}
   .about-right {
     margin-top: -80px;
     margin-right: 0;
