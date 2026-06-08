@@ -1349,3 +1349,15 @@ html, body {
     transform: none !important;
   }
 }
+
+.work-item,
+.works-page-item,
+.work-item img,
+.works-page-item img {
+  border-radius: 18px !important;
+}
+
+.work-item,
+.works-page-item {
+  overflow: hidden !important;
+}
