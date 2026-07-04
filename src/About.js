@@ -11,7 +11,7 @@ function About() {
 
           <p>
             Studijuoju Multimediją ir kompiuterinį dizainą Vilnius Tech
-            universitetas (III kursas).
+            universitetas (IV kursas).
           </p>
 
           <p>
